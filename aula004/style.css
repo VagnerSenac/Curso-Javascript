@@ -1,0 +1,43 @@
+body {
+    
+    background-color: gray;
+    display: block;
+}
+
+hr{
+    border-color: black;
+}
+.calculadora{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+div {
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.inputUm, .inputDois, .operacoes, #resultadoFinal{
+    display: flex;
+    flex-direction: column;
+}
+
+#primeiroNumero, #segundoNumero, #operacao{
+    width: 100%;
+}
+
+#resultado, #resultadoFinal{
+    width: 50%;
+}
+#resultadoFinal {
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
