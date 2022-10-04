@@ -1,6 +1,8 @@
 // Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
-    let area = 6
-	raio = parseFloat(area)
+function calcular(){    
+let raio = parseFloat(document.querySelector("#raio").value)
+area = 3.14 * (raio * raio)
+document.querySelector("#resultado").innerHTML = ''
+document.querySelector("#resultado").innerHTML = 'Sua área é de ' + area + ' Cm'
 	
-    area = 3.14 * (raio*raio)
-	console.log("Sua área é de " + area + " Cm")
+}

@@ -1,5 +1,7 @@
 // Faça um Programa que converta metros para centímetros
-
-let metro = 5
+function calcular(){
+let metro = parseFloat(document.querySelector("#metros").value)
 let centimetro = (metro / 60)
-console.log(centimetro, " cm")
+document.querySelector("#resultado").innerHTML = ''
+document.querySelector("#resultado").innerHTML = centimetro + ' cm'
+}
